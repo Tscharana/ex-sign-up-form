@@ -18,11 +18,11 @@
         </aside>
         <main>
             <div class="intro-text">
-                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign on <em>now</em> to get started.<br><br>You <em>know</em> you want to.</div>
+                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign on <em>now</em> to get started.<br><br>You <em>know</em> you want to.</div>
             </div>
             <div class="form-container">
                 <p>Let's do this!</p>
-                <form action="#" method="post">
+                <form action="#" method="post" id="form-create-account">
                     <fieldset>
                         <div class="form-row">
                             <div class="form-item">
@@ -34,10 +34,33 @@
                                 <input type="text" name="last-name" id="last-name">
                             </div>
                         </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="form-item">
+                                <label for="tel">PHONE NUMBER</label>
+                                <input type="tel" name="tel" id="tel">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="password1">PASSWORD</label>
+                                <input type="password" name="password1" id="password1">
+                            </div>
+                            <div class="form-item">
+                                <label for="password2">CONFIRM PASSWORD</label>
+                                <input type="password" name="password2" id="password2">
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
-            <div class="action-area"></div>
+            <div class="action-area">
+                <button type="submit" form="form-create-account">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </main>
     </div>
 </body>
