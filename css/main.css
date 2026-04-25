@@ -93,3 +93,29 @@ main {
     flex-direction: column;
     justify-content: flex-end;
 }
+
+fieldset {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: grey;
+}
+
+input {
+    width: 80%;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.form-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form-item {
+    width: 50%;
+}
