@@ -78,11 +78,12 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 1 60%;
+    background-color: #F5F5DDE6;
 }
 
 .intro-text, .form-container, .action-area {
     flex: 1 1 33%;
-    border: inset red;
+    /* border: inset red; */
     padding: 2% 30% 2% 5%;
     font-size: 1.8rem;
     font-weight: bold;
@@ -108,8 +109,8 @@ label {
 }
 
 input {
-    width: 60%;
-    font-size: 2rem;
+    width: 70%;
+    font-size: 1.2rem;
     margin-top: 2%;
 }
 
@@ -122,6 +123,14 @@ input {
     width: 50%;
 }
 
+.action-area button[type="submit"] {
+    color: white;
+    background-color: #596D48;
+    padding: 1em;
+    width: 30%;
+}
+
 .action-area a, .action-area a:link, .action-area a:active, .action-area a:visited {
     text-decoration: none;
+    color: #596D48;
 }
