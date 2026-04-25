@@ -10,7 +10,69 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     font-family: "Norse";
     font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+aside, main {
+    border: inset red;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 33%;
+    min-width: 0;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo-text {
+    font-family: "Norse";
+    color: white;
+    font-size: 5rem;
+}
+
+.credit {
+    color: white;
+}
+
+.credit a, a:link, a:active, a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1 1 67%;
 }
