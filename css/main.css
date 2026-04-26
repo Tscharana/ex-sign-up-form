@@ -11,6 +11,7 @@
     --logo-text-color: white;
     --logo-background-color: rgba(0, 0, 0, 0.5);
     --main-background-color: rgba(0, 0, 0, 0.03);
+    --form-background-color: white;
     --link-color: white;
     --label-color: grey;
     --input-border-color: #E5E7EB;
@@ -140,6 +141,7 @@ input {
 
 .form-container {
     box-shadow: 0 0 0.3em black;
+    background-color: var(--form-background-color);
 }
 
 .action-area button[type="submit"] {
