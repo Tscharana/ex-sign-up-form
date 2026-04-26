@@ -14,30 +14,31 @@
                 <img class="logo" src="./img/odin-logo.png" alt="The ODIN logo">
                 <div class="logo-text">ODIN</div>
             </div>
-            <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+            <footer class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></footer>
         </aside>
         <main>
-            <div class="intro-text">
-                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign on <em>now</em> to get started.<br><br>You <em>know</em> you want to.</div>
-            </div>
+            <section class="intro-text">
+                <h2>This is not a real online service!</h2>
+                <div>You know you need something like this in your life to help you realize your deepest dreams.<br>Sign on <em>now</em> to get started.<br><br>You <em>know</em> you want to.</div>
+            </section>
             <div class="form-container">
-                <p>Let's do this!</p>
+                <h2>Let's do this!</h2>
                 <form action="#" method="post" id="form-create-account">
                     <fieldset>
                         <div class="form-row">
                             <div class="form-item">
                                 <label for="first-name">FIRST NAME</label>
-                                <input type="text" name="first-name" id="first-name">
+                                <input type="text" name="first-name" id="first-name" required>
                             </div>
                             <div class="form-item">
                                 <label for="last-name">LAST NAME</label>
-                                <input type="text" name="last-name" id="last-name">
+                                <input type="text" name="last-name" id="last-name" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-item">
                                 <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email">
+                                <input type="email" name="email" id="email" required>
                             </div>
                             <div class="form-item">
                                 <label for="tel">PHONE NUMBER</label>
@@ -47,20 +48,20 @@
                         <div class="form-row">
                             <div class="form-item">
                                 <label for="password1">PASSWORD</label>
-                                <input type="password" name="password1" id="password1">
+                                <input type="password" name="password1" id="password1" required>
                             </div>
                             <div class="form-item">
                                 <label for="password2">CONFIRM PASSWORD</label>
-                                <input type="password" name="password2" id="password2">
+                                <input type="password" name="password2" id="password2" required>
                             </div>
                         </div>
                     </fieldset>
                 </form>
             </div>
-            <div class="action-area">
+            <section class="action-area">
                 <button type="submit" form="form-create-account">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
-            </div>
+            </section>
         </main>
     </div>
 </body>
