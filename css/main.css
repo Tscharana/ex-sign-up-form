@@ -106,12 +106,13 @@ label {
     display: block;
     font-size: 1rem;
     color: grey;
+    margin-top: 1rem;
 }
 
 input {
     width: 70%;
     font-size: 1.2rem;
-    margin-top: 2%;
+    border-radius: 4px;
 }
 
 .form-row {
@@ -123,14 +124,21 @@ input {
     width: 50%;
 }
 
+.action-area {
+    box-shadow: inset 0 0.1em grey;
+}
+
 .action-area button[type="submit"] {
     color: white;
+    font-weight: bold;
     background-color: #596D48;
     padding: 1em;
     width: 30%;
+    border: none;
+    border-radius: 8px;
 }
 
 .action-area a, .action-area a:link, .action-area a:active, .action-area a:visited {
     text-decoration: none;
     color: #596D48;
-}
+}   
